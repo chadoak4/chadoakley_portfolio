@@ -234,7 +234,7 @@ header p {
 	background: #8fdad5;
 }
 #works-section i.fa {
-	font-size: 30px;
+	/*font-size: 30px;*/
 	padding: 5px;
 	color: #2caba0;
 }
@@ -588,9 +588,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 #contact-section a {
-	font-size: 25px;
 	color:#1c424d;
-	font-weight: 700;
 }
 /* Footer */
 #footer {
