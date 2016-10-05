@@ -39,18 +39,14 @@
     <![endif]-->
 </head>
 <body>
-<div id="preloader">
-  <div id="status"> <img src="img/preloader.gif" height="64" width="64" alt=""> </div>
-</div>
 <!-- Navigation
     ==========================================-->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="#" class="page-scroll"><i class="fa fa-space-shuttle fa-flip-horizontal"></i> Chad Oakley<strong></strong></a></div>
-
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="#" class="page-scroll">Chad Oakley  <img id="tornado" src="img/tornado.png" style="width:25px;height:25px;"></a></div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -62,18 +58,29 @@
         <li><a href="#contact-section" class="page-scroll">Contact</a></li>
       </ul>
     </div>
+  </div>
     <!-- /.navbar-collapse -->
   </div>
   <!-- /.container-fluid -->
 </nav>
 
 <!-- Header -->
-<header class="text-center" name="home">
+<header name="home">
   <div class="intro-text">
-    <h1 class="wow fadeInDown">Chad Oakley</h1>
-    <div class="circular">
-    </div>
-     </div>
+    <h1 class="wow fadeInDown">Let's Create Something</h1>
+  </div>
+  <div id="textSlider">
+		<div class="slideCol">
+			<div class="scroller">
+				<div class="inner">
+					<p>Innovative.</p>
+					<p>Inspirational.</p>
+					<p>Beautiful.</p>
+					<p>Amazing.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
 <!-- About Section -->
 <div id="about-section">
@@ -84,29 +91,52 @@
       <div class="clearfix"></div>
     </div>
     <div class="row">
-      <div class="col-md-6 wow fadeInLeft"> <img src="img/astronaut2.png" class="img-responsive"> </div>
+      <div class="col-md-6 wow fadeInLeft">
+        <div class="icon thunder-storm">
+          <div class="cloud"></div>
+          <div class="lightning">
+            <div class="bolt"></div>
+            <div class="bolt"></div>
+          </div>
+        </div>
+        <div id= "song">
+          She stood in the storm,
+          <br>
+          and when the wind did not blow her way,
+          <br>
+          she adjusted her <span>sails</span>.”
+          <br>
+          <br>
+          <span>Elizabeth Edwards</span>
+
+        </div>
+      </div>
       <div class="col-md-6 wow fadeInRight">
           <h4>Who am I?</h4>
-          <p>Full Stack Web Developer, Tampa Bay Rays and Lightning fanatic, Futbol Player, Disney Addict, and Future Astronaut.
+          <p>Highly motivated business intelligence professional.  Successfully demonstrated leadership abilities in the healthcare industry leading a hospital's business department to new heights in areas of collections, revenue, and higher standards of quality service for our patients.
           <br>
           <br>
-          Former employee of the healthcare industry looking to take my knowledge and skills to companies that are working on making a difference and looking to change the world with technology.</p>
+          Now more than ever it is important to understand technology.  We live in a society that is continually driven and evolving through the use of technology advancements.  Understanding this, I recently took leave from a position in the business world to dive feet first into the world of technology.  I expanded my education and took a grueling three-month eighty-hour week course on web development that included topics on databases, social media, marketing, Ruby on Rails, and front-end frameworks.  Since graduating from this course I have proven my skills in a local start-up company developing and maintaining a CRM, ERP in-house application with Ruby on Rails, JS component based framework Vue.Js, SQL, HTML, and CSS.
           <div class="space"></div>
           <h4>Got Those Mad Skills In:</h4>
           <div class="space"></div><div class="list-style">
             <div class="row">
               <div class="col-lg-6 col-sm-6 col-xs-12">
                 <ul>
-                  <li>Web Development</li>
-                  <li>Website and App Design</li>
+                  <li>Website & App Design</li>
+                  <li>Business Analytics</li>
+                  <li>Business Development</li>
                   <li>Videography</li>
+                  <li>Social Media & Marketing Growth</li>
                 </ul>
               </div>
               <div class="col-lg-6 col-sm-6 col-xs-12">
                 <ul>
+                  <li>Web Development</li>
                   <li>Ruby Rails</li>
                   <li>PHP/WordPress</li>
-                  <li>Consulting</li>
+                  <li>HTML/CSS</li>
+                  <li>AWS</li>
                 </ul>
               </div>
             </div>
@@ -149,7 +179,7 @@
 <div id="works-section" class="text-center">
   <div class="container"> <!-- Container -->
     <div class="section-title wow fadeInDown">
-      <h2>My <strong>Work</strong><a href="https://github.com/chadoak4/" target="_blank"><i class="fa fa-github" style="color:#1c424d;"></i></a></h2>
+      <h2>My <strong>Work</strong><a href="https://github.com/chadoak4/" target="_blank"><i class="fa fa-github" style="color:#ffffff;"></i></a></h2>
       <hr>
       <div class="clearfix"></div>
     </div>
@@ -159,7 +189,7 @@
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
             <li><a href="#" data-filter=".web">Web Development</a></li>
-            <li><a href="#" data-filter=".design">Design</a></li>
+            <li><a href="#" data-filter=".design">Business</a></li>
             <li><a href="#" data-filter=".video">Videography</a></li>
           </ol>
         </li>
@@ -269,8 +299,8 @@
       <hr>
     </div>
       <div class="resume-view">
-          <a href="ChadOakley_TechResume.pdf" target="_blank" class="btn btn-default-resume1 pull-left btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">View Now</a>
-          <a href="ChadOakley_TechResume.pdf" download class="btn btn-default-resume2 pull-right btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">Download</a>
+          <a href="resumeoakley.pdf" target="_blank" class="btn btn-default-resume1 pull-left btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">View Now</a>
+          <a href="resumeoakley.pdf" download class="btn btn-default-resume2 pull-right btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">Download</a>
       </div>
     </div>
   </div>
@@ -287,8 +317,8 @@
       <div class="col-md-4"><a href="http://www.visitclearwaterflorida.com/" target="_blank"><i class="fa fa-map-marker fa-2x"></i></a>
         <p><a href="http://www.visitclearwaterflorida.com/" target="_blank">Clearwater, FL</a></p>
       </div>
-      <div class="col-md-4"><a href="mailto:Chad.Oakley@tampabay.rr.com?Subject=Saw%20your%20portfolio%20time%20to%20chat" target="_top"><i class="fa fa-envelope-o fa-2x"></i></a>
-        <p><a href="mailto:Chad.Oakley@tampabay.rr.com?Subject=Saw%20your%20portfolio%20time%20to%20chat" target="_top">Chad.Oakley@tampabay.rr.com</a></p>
+      <div class="col-md-4"><a href="mailto:hurricaneoakley@gmail.com?Subject=Let's%20Chat" target="_top"><i class="fa fa-envelope-o fa-2x"></i></a>
+        <p><a href="mailto:hurricaneoakley@gmail.com?Subject=Let's%20Chat" target="_top">hurricaneoakley@gmail.com</a></p>
       </div>
       <div class="col-md-4"> <a href="tel:727-252-8238"><i class="fa fa-phone fa-2x"></i></a>
         <p><a href="tel:727-252-8238">727-252-8238</a>
@@ -301,7 +331,6 @@
        <div class="social">
         <ul>
           <li><a href="https://twitter.com/ChadOak04" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><p><i class="fa fa-dribbble" data-container="body" data-toggle="popover" data-placement="top" data-content="Coming Soon!"></i></i></p></li>
           <li><a href="https://github.com/chadoak4/" target="_blank"><i class="fa fa-github"></i></a></li>
           <li><a href="https://www.linkedin.com/in/chad-oakley-64b35446" target="_blank"><i class="fa fa-linkedin"></i></a></li>
         </ul>
